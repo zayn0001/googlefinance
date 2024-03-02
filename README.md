@@ -6,3 +6,7 @@ This project provides a simple API for accessing financial data from Google Fina
 
 ## Example 
 [https://googlefinance.onrender.com/MUTF_IN/TATA_DIGI_INDI_1KQMKFF](https://googlefinance.onrender.com/MUTF_IN/TATA_DIGI_INDI_1KQMKFF)
+
+```js
+    {"nav":50.57}
+```
