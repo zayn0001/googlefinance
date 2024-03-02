@@ -26,7 +26,7 @@ app.add_middleware(
 
 
 
-@app.get("/{ticker}/{exchange}")
+@app.get("/{exchange}/{ticker}")
 async def read_user_item(ticker: str, exchange: str):
     url = f'https://www.google.com/finance/quote/{ticker}:{exchange}'
     response = requests.get(url)
